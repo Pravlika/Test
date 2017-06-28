@@ -4,7 +4,7 @@ provider "azurerm" {
   client_secret   = "I+TrC17D3OZ16zgXMhrzU8GodhV909XITieIKGeTKi0="
   tenant_id       = "6bf32af2-2e48-49ca-801d-9335f08e95de"
 }
-
+# Above block is used to connect to azure rm api
 # Create a resource group
 resource "azurerm_resource_group" "HelloTerraform" {
   name     = "Helloworld"
